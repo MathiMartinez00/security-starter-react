@@ -62,14 +62,12 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
             style={{
               margin: '24px 16px',
               padding: 24,
-              minHeight: 280,
+              minHeight: '100vh',
               background: colorBgContainer,
+              color: 'black',
             }}
           >
-            {
-              // TODO: Por algún motivo parece que el color de la letra no cambia.
-            }
-            Content
+            Bienvenido a Joko Security.
           </Content>
         </Layout>
       </Layout>
